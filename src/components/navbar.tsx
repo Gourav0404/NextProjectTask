@@ -1,6 +1,6 @@
 import React from "react"
 import { Settings } from "lucide-react"
-import NavbarImage from '../../public/NavbarImage.jpg';
+// import NavbarImage from '../../public/NavbarImage.jpg';
 import Image from "next/image"
 
 export const Navbar: React.FC = () => {
@@ -14,7 +14,7 @@ export const Navbar: React.FC = () => {
       {/* Dummy Profile Picture */}
       <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-gray-300">
         <Image
-          src={NavbarImage}
+          src='/NavbarImage.jpg'
           alt="Profile"
           className="object-cover"
           width={40}

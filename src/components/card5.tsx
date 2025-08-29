@@ -18,7 +18,7 @@ export const Card5: React.FC = () => {
         <div className="mt-10">
           <div className="flex gap-2 justify-beetween text-black bg-gray-100 border-1 border-gray-200 rounded-sm ">
             <Image
-              src={NavbarImage}
+              src='/NavbarImage.jpg'
               alt="profile"
               width={40}
               height={40}
@@ -29,7 +29,7 @@ export const Card5: React.FC = () => {
           </div>
           <div className="flex gap-2 justify-beetween text-black bg-gray-100 border-1 border-gray-200 rounded-sm mt-2">
             <Image
-              src={CardImage2}
+              src='/CardImage2.avif'
               alt="profile"
               width={40}
               height={40}
@@ -40,7 +40,7 @@ export const Card5: React.FC = () => {
           </div>
           <div className="flex gap-2 justify-beetween text-black bg-gray-100 border-1 border-gary-200 rounded-sm mt-2">
             <Image
-              src={CardImage}
+              src='/CardImage1.avif'
               alt="profile"
               width={40}
               height={40}

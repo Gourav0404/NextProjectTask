@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from 'next/image';
-import CardImage2 from '../../public/cardImage2.avif'
+// import CardImage2 from '../../public/cardImage2.avif'
 
 
 export const Feedback: React.FC = () => {
@@ -22,7 +22,7 @@ export const Feedback: React.FC = () => {
         </div>
         <div className="w-10 h-10  flex justify-evenly rounded-full overflow-hidden border-2 border-gray-300">
           <Image
-            src={CardImage2}
+            src='/CardImage2.avif'
             alt="card"
             width={40}
             height={40}

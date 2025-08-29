@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from 'next/image';
-import CardImage from '../../public/CardImage1.avif';
+// import CardImage from '../../public/CardImage1.avif';
 
 
 
@@ -24,11 +24,11 @@ export const MarketValue: React.FC = () => {
         </div>
         <div className="w-10 h-10  flex justify-evenly rounded-full overflow-hidden border-2 border-gray-300">
           <Image
-            src={CardImage}
+            src='/CardImage1.avif'
             alt="card"
             width={40}
             height={40}
-           
+
           />
 
 
