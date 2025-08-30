@@ -29,7 +29,7 @@ export const Card5: React.FC = () => {
           </div>
           <div className="flex gap-2 justify-beetween text-black bg-gray-100 border-1 border-gray-200 rounded-sm mt-2">
             <Image
-              src='/CardImage2.avif'
+              src='/cardImage2.avif'
               alt="profile"
               width={40}
               height={40}
